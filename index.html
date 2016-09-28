@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles/main.css" rel="stylesheet">
+</head>
+<body>
+
+
+
+
+      <input id="email" type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+      <input id="pass" type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+	  <input id="username" type="username" class="form-control" id="username" placeholder="Username">
+	  <button type="submit" class="btn btn-default" id="login">Sign in</button>
+	  <button type="submit" class="btn btn-default" id="signup">Sign up</button>
+	  <button type="submit" class="btn btn-default pull-right" id="logout">Log out</button>
+
+
+
+<br/>
+<textarea rows="30" cols="50" name="data" id="data"></textarea>
+<br/>
+<input type="message" name="message" id="message">
+<button id="send">Send</button>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<input type="text" name="addFriend" id="addfriend">
+<button type="submit" id="sendreq">Send Request</button>
+
+
+<div id="FriendsRequest"></div>
+
+<div id="ChatBox"></div>
+
+
+
+<script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+<script src="scripts/app.js"></script>
+</body>
+</html>
